@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <title id="title">Valdecir Hideki Nakao</title>
+    </head>
+    <body>
+        <!-- Main Content Structure -->
+        <main class="card">
+            <div class="my-info">
+                <img src="./src/img/profile-picture.jpg" alt="Profile-image" />
+                <h1 class="name">Valdecir Hideki Nakao</h1>
+                <h2 class="role" id="role">Desenvolvedor Front-End Júnior</h2>
+            </div>
+            <div class="content">
+                <ul class="tabs">
+                    <li class="tab shown" id="about-me">
+                        <span class="material-symbols-outlined" alt="Information icon" id="info-icon" title="Sobre">info</span>
+                    </li>
+                    <li class="tab" id="languages">
+                        <span class="material-symbols-outlined" alt="Languages icon" id="languages-icon" title="Idiomas">translate</span>
+                    </li>
+                    <li class="tab" id="my-network">
+                        <span class="material-symbols-outlined" alt="Networks icon" id="networks-icon" title="Minhas Redes">contact_page</span>
+                    </li>
+                </ul>
+
+                <div class="info-tabs">
+                    <div class="info shown" id="info-about-me">
+                        <h3 class="subtitle" id="subtitle">Sobre</h3>
+
+                        <div class="description">
+                            <p style="line-height: 1.5" id="greeting">Olá! Meu nome é Valdecir Hideki Nakao, seja bem-vindo(a)!</p>
+                            <p style="line-height: 1.5" id="presentation">
+                                A minha paixão por programação vem desde a faculdade. Nas minhas jornadas profissionais e acadêmicas, a programação tem sido uma
+                                ferramenta fundamental para resolver problemas e obter grandes resultados. Na área de Front-End o constante aprendizado das
+                                tecnologias <span>HTML5</span>, <span>CSS3</span> e <span>JavaScript</span> contribuiram para o desenvolvimento de aplicações e
+                                páginas com visuais mais atrativos e interativos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info" id="info-languages">
+                        <h3 class="subtitle" id="language">Idiomas</h3>
+
+                        <ul class="languages">
+                            <li>
+                                <button class="button-portuguese" id="button-portuguese">Português</button>
+                            </li>
+                            <li>
+                                <button class="button-english" id="button-english">English</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info" id="info-my-network">
+                        <h3 class="subtitle" id="my-networks">Minhas redes</h3>
+                        <ul class="networks">
+                            <li>
+                                <a href="/src/resume/portuguese.pdf" target="_blank" alt="Resume" class="resume" id="resume">Currículo</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/valdecir-nakao-3ab20347/" target="_blank" alt="Linkedin" class="linkedin" id="linkedin"
+                                    >LinkedIn</a
+                                >
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/nakaohideki" target="_blank" alt="GitHub" class="github" id="github">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
